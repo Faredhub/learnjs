@@ -1,4 +1,4 @@
-// const tinder = new Object()  single tone object
+// // const tinder = new Object()  single tone object
 
 // const tinder = {}
 
@@ -44,3 +44,37 @@
 // ]
 // users[0].email
 // console.log(tinder);
+
+// console.log(Object.keys(tinder));
+// console.log(Object.entries(tinder));
+// console.log(Object.values(tinder));
+
+
+// console.log(tinder.hasOwnProperty('id')); //true or 
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstractur: "Mr.Peter"
+}
+
+//course.courseInstractur
+
+
+const {courseInstractur: Instractur} = course
+console.log(Instractur);
+
+
+// const navbar = ({company}) => {    // for destriuctruing
+
+// }
+
+// navbar(company = "Peter")
+
+// {
+//     name: "peter",
+//     coursename: "js hindi",
+//     price: "free"
+// }  
